@@ -1,0 +1,157 @@
+/* Add Epilogue font */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Epilogue', sans-serif;
+    font-size: 16px;
+    background-color: hsl(0, 0%, 98%);
+    width: 100vw;
+    height: 100vh;
+}
+button{
+    font-family: 'Epilogue', sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: hsl(0, 0%, 41%);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* Apply a basic styling to the navigation bar */
+header {
+    color: hsl(0, 0%, 8%);
+    padding: 20px;
+}
+nav {
+    display: flex;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul:nth-child(3){
+    margin-left: auto;
+}
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+nav li a {
+    color: hsl(0, 0%, 41%);
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav li a:hover {
+    color: hsl(0, 0%, 41%);
+}
+
+/* Styles for Register button */
+.register a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2.2px solid #999;
+}
+.register a:hover {
+    background-color: #a5a5a5;
+    color: #fff;
+    border: 2.2px solid #999;
+}
+/* Additional styles*/
+.logo{
+    display: inline-block;
+    margin: 0 5% 0 1%;
+}
+h1 {
+    font-weight: 700;
+    font-size: 5rem;
+    padding: 7% 7% 2% 7%;
+    margin-top: 5%;
+    margin-left:10%;
+}
+p{
+    font-size: 1.5rem;
+    padding: 0 20% 0 7%;
+    color: hsl(0, 0%, 41%);
+    margin-left:10%;
+    margin-top: 2%;
+    line-height: 1.4em;
+}
+.LearnMoreBtn{
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: hsl(0, 0%, 8%);
+    text-decoration: none;
+    border-radius: 15px;
+    border: none;
+    margin-left: 17%;
+    margin-top: 5%;
+    color: hsl(0, 0%, 98%);
+}
+/*dropdown menu*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+ /* Define the style for the dropdown content (the list items) */
+ .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Define the style for the dropdown content items (list items) */
+  .dropdown-content a {
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.drop-btn{
+    text-decoration: none;
+    border: none;
+    margin-right: 1.5em;
+}
+/* Change the background color of the dropdown content when hovering */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    }
+    
+    /* Show the dropdown content when the dropdown button is clicked */
+    .dropdown:hover .dropdown-content {
+    display: block;
+    }
+
+.heading{
+    display: flex;
+}
+.heading img {
+    width: 70%;
+    position: relative;
+    left: 10%;
+    top: 8%;
+}
+
+/*row*/
+.row{
+    display: flex;
+    flex-direction: row;
+    padding: 0 10%;
+}
+.client-row{
+    margin-right: 50px;
+}
