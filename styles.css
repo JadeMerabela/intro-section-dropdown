@@ -51,7 +51,7 @@ nav li a {
 }
 
 nav li a:hover {
-    color: hsl(0, 0%, 41%);
+    color: hsl(0, 0%, 8%);
 }
 
 /* Styles for Register button */
@@ -64,8 +64,7 @@ nav li a:hover {
     border: 2.2px solid #999;
 }
 .register a:hover {
-    background-color: #a5a5a5;
-    color: #fff;
+    color: hsl(0, 0%, 8%);
     border: 2.2px solid #999;
 }
 /* Additional styles*/
@@ -99,16 +98,25 @@ p{
     margin-top: 5%;
     color: hsl(0, 0%, 98%);
 }
+.LearnMoreBtn:hover{
+    background-color: transparent;
+    color: hsl(0, 0%, 8%);
+    border: 2.2px solid #999;
+}
 /*dropdown menu*/
 .dropdown {
     position: relative;
     display: inline-block;
   }
+.dropdown li a:hover{
+    color: hsl(0, 0%, 8%);
+}
  /* Define the style for the dropdown content (the list items) */
  .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
+    border-radius: 15px;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -116,15 +124,29 @@ p{
   
   /* Define the style for the dropdown content items (list items) */
   .dropdown-content a {
-    color: #000;
-    padding: 12px 16px;
+    color: hsl(0, 0%, 41%);
+    padding: 10px 15px;
     text-decoration: none;
     display: block;
+    text-align: center;
+  }
+  .dropdown-content a:first-child{
+    margin-top: 20px;
+  }
+  .dropdown-content a:last-child{
+    margin-bottom: 20px;
+  }
+  .dropdown-content img{
+    display: inline-block;
+    margin-right: 8px;
   }
 .drop-btn{
     text-decoration: none;
     border: none;
     margin-right: 1.5em;
+}
+.drop-btn:hover, .dropdown-content a:hover{
+    color: hsl(0, 0%, 8%);
 }
 /* Change the background color of the dropdown content when hovering */
 .dropdown-content a:hover {
